@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+    <jar path="./mines.jar"/>
+    <options overwrite="false" compress="true" exportErrors="true"
+        exportWarnings="true" saveDescription="true"
+        descriptionLocation="/Mines/makejar.jardesc"
+        useSourceFolders="false" buildIfNeeded="true"/>
+    <manifest manifestVersion="1.0" usesManifest="true"
+        reuseManifest="false" saveManifest="false"
+        generateManifest="true" manifestLocation="" mainClassHandleIdentifier="=Mines/&lt;edu.mines{MinesFrame.java[MinesFrame">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false">
+        <javaElement handleIdentifier="=Mines/&lt;edu.mines.model.event"/>
+        <javaElement handleIdentifier="=Mines/&lt;edu.mines.view"/>
+        <javaElement handleIdentifier="=Mines/&lt;edu.mines.resources"/>
+        <javaElement handleIdentifier="=Mines/&lt;edu.mines.model"/>
+        <javaElement handleIdentifier="=Mines/&lt;edu.mines"/>
+        <javaElement handleIdentifier="=Mines/&lt;edu.mines.view.event"/>
+    </selectedElements>
+</jardesc>
